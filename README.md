@@ -8,7 +8,7 @@ and answers, model-level and column-level: what feeds this, what reads it,
 which downstream incrementals need a `--full-refresh`, and exactly which
 commands (or `DROP ... CASCADE` DDL) to run.
 
-![The lineage explorer in Impact mode: pick a target model, see which downstream models need a full refresh vs a normal rebuild, with the dbt commands and DROP DDL ready to copy.](docs/img/app-impact.png)
+![The lineage explorer in Impact mode: pick a target model, see which downstream models need a full refresh vs a normal rebuild, with the dbt commands and DROP DDL ready to copy.](https://raw.githubusercontent.com/Hugs401/dbt-walker/main/docs/img/app-impact.png)
 
 *The visual explorer in Impact mode — `stg_orders` is the target; the
 incremental `orders` model needs a full refresh, `customers` just rebuilds, and
